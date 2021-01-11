@@ -36,8 +36,8 @@ function hacerTabla(productos){
 
 function quitar(productos,i){
     productos.splice(i, 1);
-    console.log(productos);
     hacerTabla(productos);
+    document.getElementById("total").innerHTML ="Haga click  <br>en comprar para <br> conocer importe.";
 
 }
 
@@ -55,13 +55,11 @@ function carritoLista(){
     let lista="<ol id=\"lista\">"
     for(let k=0;k<carritoNombres.length;k++){
             lista+="<li>"
-            lista+=carritoNombres[k];
+            lista+=carritoNombres[k]+"    $"+carritoPrecios[k];
             lista+="</li>";
     }
     lista+="</ol><br>"
     document.getElementById("carrito").innerHTML ="<h2>Carrito:</h2><br> "+lista;
-    
-   
 }
 
 function total(){
@@ -70,6 +68,6 @@ function total(){
 
 function inicio(){
     hacerTabla(productos);
-    total();
+    //total();
 }
 
