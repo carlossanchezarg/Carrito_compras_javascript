@@ -67,6 +67,7 @@ function carritoLista(){
 
 function devolver(productos,nom,prec){
     productos.push({nombre:nom,precio:prec});
+    document.getElementById("total").innerHTML ="Haga click  <br>en comprar para <br> conocer importe.";
 }
 
 function total(){
