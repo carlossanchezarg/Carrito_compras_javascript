@@ -1,0 +1,64 @@
+.tienda{
+  display: flex;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+    align-content: center;
+    margin: auto;
+    flex: 1 1 auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    align-content: center;
+    padding: 8px;
+    font-style: normal;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  #ecabezado_tabla{
+     background-color:darkgray;
+  }
+
+  #total{
+    margin:auto;
+    width: auto;
+    font-size:larger;
+    background-color: darkgray;
+    border: 5px;
+    border-style: solid;
+    flex: 1 1 auto;
+  }
+
+  #carrito{
+    background-color: grey;
+    border: 5px;
+    border-style: solid;
+    margin:auto;
+    
+    width: 200px;
+  }
+
+ 
+  #comprar{
+    display: flex;
+    flex: 1 1 auto;
+    width: 210px;
+    align-items: center;
+    align-content: center;
+    font-style: italic;
+    font-size: xx-large;
+  
+  }
+  
+  #comprar:hover {
+    background-color: lightgreen;
+    color: white;
+  }
+

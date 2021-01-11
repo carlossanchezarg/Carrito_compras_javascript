@@ -1,12 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Carrito de compras</title>
+     <title>Carrito de compras</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-  <div id="tabla"></div>
-    
-   <script src="carrito.js"></script>
+<body onload="inicio()">
+
+<div class="tienda">
+<div id="tabla"></div>
+<div><aside id="carrito"><h2>Carrito:</h2><br><p>A&uacute;n no ha sellecionado ning&uacute;n producto..</p></aside><aside><button id="comprar" onclick="total()">Comprar</button></aside><aside id="total"></aside></div>
+</div>
+
+<script src="carrito.js">
+</script>
+
 </body>
 </html>
