@@ -1,7 +1,6 @@
-# Modulo 2- Trabajo Practico 2: Carrito de compras.
+## Ejercitación de javascript: Carrito de compras.
+Carrito de compras que permite seleccionar items de una lista de articulos disponibles para comprar,para terminar la compra se presionar el botón comprar y se calcula el costo total de la compra.
 
-* Desarrollar un "carrito de compras" donde el usuario presione sobre cada
-producto y el mismo quede guardado en el carrito. Luego, al oprimir el boton
-"comprar", calcular el importe final y mostrar los productos comprados junto
-con el total a pagar. Solo puede comprar una unidad de cada producto.
+Ver deploy: [carrito de compras](https://carlossanchezarg.github.io/Carrito_compras_javascript/)
+
 
